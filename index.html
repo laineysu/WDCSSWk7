@@ -1,0 +1,23 @@
+<!-- Week 7 Lab 01Nov21 Helene Suttle
+Create a webpage that uses a form and asks the user for their 
+name and email. 
+When the user submits the form, the form should be hidden, and
+ a message should appear in the following format:
+
+[insert user name], thank you for your details. We will be in 
+touch via [insert user email] shortly.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Week7Lab</title>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<form id="myForm" onsubmit="myInputs(); return false" >
+			Name:<input type="text" id="userName"></br>
+			Email:<input type="email" id="email" ></br>
+			<input type="submit" value="Submit" class="button"/><br/>
+		</form> 
+	</body>
+</html>
